@@ -32,7 +32,7 @@ public class CardDeliveryTest {
 
     @Test
     void cardDeliveryTest() {
-        Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = false;
         Configuration.browser = "firefox";
 
         open("http://localhost:9999");
