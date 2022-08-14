@@ -14,12 +14,6 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
 public class CardDeliveryTest {
-    /*public LocalDate meetDate() {
-        LocalDate data = LocalDate.parse(LocalDate.now().plusDays(3).format(DateTimeFormatter.ofPattern("dd.MM.yyyy")));
-        return data;
-    };
-
-    String date = String.valueOf(meetDate());*/
 
     public String today (int day) {
         if (day < 3) {
